@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { useRef } from "react";
 import { useMoralis, ByMoralis, useMoralisQuery } from "react-moralis";
 import Message from "./Message";
