@@ -23,6 +23,21 @@ const Login = () => {
         </button>
       </div>
 
+      <div className="flex absolute z-50 w-full items-center justify-center bottom-5">
+        <h1 className="text-gray-100 font-semibold text-xl text-center">
+          Made with ❤️ by{" "}
+          <span className="text-pink-500 hover:text-pink-700">
+            <a
+              href="http://vijayraj.netlify.app"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Vijaydev
+            </a>
+          </span>
+        </h1>
+      </div>
+
       <div className="-z-50">
         <Image
           src="https://links.papareact.com/55n"
