@@ -24,7 +24,7 @@ const Header = () => {
           <div className="relative h-40 w-40 lg:mx-auto border-pink-500 border-8 rounded-full">
             <Avatar logoutOnPress />
           </div>
-          <h1 className="text-xl ">Welcome to Vijay's Metaverse</h1>
+          <h1 className="text-xl ">Welcome to Metaverse</h1>
           <h2 className="text-3xl font-bold truncate">{user.getUsername()}</h2>
           <ChangeUsername />
         </div>
